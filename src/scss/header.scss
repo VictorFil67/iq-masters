@@ -1,1 +1,179 @@
+.background {
+  background-image: url(../img/main-sect-background-mob.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 568px;
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+}
 
+.open {
+  display: flex !important;
+}
+
+.header {
+  display: block;
+  background-color: transparent;
+  position: relative;
+  padding-top: 17px;
+}
+@media (min-width: 1440px) {
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 100px;
+    background-color: #3e424b;
+    color: #faf6f2;
+    padding: 0 40px;
+  }
+}
+
+.header-container {
+  position: relative;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  // flex-direction: column;
+  align-items: center;
+  // border-radius: 50%;
+  // border: 1px solid #faf6f2;
+  // width: 90px;
+  // height: 90px;
+  // margin: 0 auto;
+}
+@media (min-width: 1440px) {
+  .logo {
+    margin: 0;
+  }
+}
+
+.nav {
+  display: flex;
+  width: 700px;
+  padding: 0 40px;
+}
+
+.nav ul {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.burger {
+  display: none;
+  position: absolute;
+  z-index: 50;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 4px;
+  width: 24px;
+  height: 18px;
+  top: 45px;
+  left: 24px;
+}
+
+.burger span {
+  height: 2px;
+  width: 100%;
+  transform: scale(1);
+  background-color: #faf6f2;
+}
+
+.burger::before,
+.burger::after {
+  content: '';
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  background-color: #faf6f2;
+  transition: all 0.3s ease 0s;
+}
+
+.burger::before {
+  top: 0;
+}
+
+.burger::after {
+  bottom: 0;
+}
+
+/* Добавляем класс active для анимации иконки бургера */
+.burger.active {
+  top: 92px;
+  left: auto;
+  right: 24px;
+}
+
+.burger.active span {
+  transform: scale(0);
+}
+
+.burger.active::before {
+  top: 50%;
+  transform: rotate(-45deg) translate(0, -50%);
+  background-color: #000;
+}
+
+.burger.active::after {
+  bottom: 50%;
+  transform: rotate(45deg) translate(0, 50%);
+  background-color: #000;
+}
+
+/* При разрешении экрана 900px и ниже, выводим на экран иконку бургера */
+@media (max-width: 1439.98px) {
+  .burger {
+    display: flex;
+  }
+
+  .nav {
+    display: none;
+    flex-direction: column;
+    position: fixed;
+    height: 436px;
+    width: 299px;
+    // top: 0;
+    // bottom: 0;
+    // left: 0;
+    // right: 0;
+    z-index: 50;
+    overflow-y: auto;
+    padding: 29px 53px;
+    margin: auto;
+    background-image: url(../img/burger-menu.png);
+    // background-color: rgb(182, 74, 185);
+    // backdrop-filter: blur(80px);
+    // background-image: linear-gradient(
+    //   129deg,
+    //   rgba(255, 255, 255, 0.15) 0%,
+    //   rgba(153, 153, 153, 0.15) 100%
+    // );
+    // transform: rotate(90deg);
+    animation: burgerAnimation 0.4s;
+  }
+
+  .nav ul {
+    flex-direction: column;
+    align-items: center;
+    row-gap: 12px;
+    margin: auto;
+    font: 400 24px 'Anton', sans-serif;
+    letter-spacing: 0.12em;
+    color: #f5f5f5;
+  }
+}
+
+@keyframes burgerAnimation {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
