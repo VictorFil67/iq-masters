@@ -1,0 +1,70 @@
+.privacy {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(46, 47, 66, 0.6),
+      rgba(46, 47, 66, 0.2)
+    ),
+    url(../img/privacy-policy-background-mob.png);
+  background-size: cover;
+}
+
+.privacy-wrap {
+  width: 320px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 0 16px 16px;
+}
+
+.privacy-title {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  font-weight: 500;
+  font-size: 27px;
+  letter-spacing: 0.2em;
+  color: #fff;
+  padding: 5px;
+}
+
+.privacy-wrap > h2 {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.2em;
+  color: #fff;
+  padding: 5px;
+}
+
+.privacy-wrap > p {
+  font-weight: 400;
+  font-size: 14px;
+  color: #f1f1f1;
+  padding: 5px;
+}
+
+@media screen and (min-width: 1440px) {
+  .privacy-wrap {
+    width: 1440px;
+    padding: 0 85px 80px;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(46, 47, 66, 0.6),
+        rgba(46, 47, 66, 0.2)
+      ),
+      url(../img/privacy-policy-background-web.png);
+  }
+
+  .privacy-title {
+    font-size: 54px;
+  }
+
+  .privacy-wrap > h2 {
+    font-size: 32px;
+  }
+
+  .privacy-wrap > p {
+    font-size: 22px;
+  }
+}

@@ -1,0 +1,72 @@
+.terms {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(46, 47, 66, 0.6),
+      rgba(46, 47, 66, 0.2)
+    ),
+    url(../img/terms-background-mob.png);
+  background-size: cover;
+}
+
+.terms-wrap {
+  width: 320px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 0 16px 16px;
+}
+
+.terms-title {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  font-weight: 500;
+  font-size: 27px;
+  letter-spacing: 0.2em;
+  color: #fff;
+  padding: 5px;
+}
+
+.terms-wrap > h2 {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.2em;
+  color: #fff;
+  padding: 5px;
+}
+
+.terms-wrap > p {
+  font-weight: 400;
+  font-size: 14px;
+  color: #f1f1f1;
+  padding: 5px;
+}
+
+@media screen and (min-width: 1440px) {
+  .terms {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(46, 47, 66, 0.6),
+        rgba(46, 47, 66, 0.2)
+      ),
+      url(../img/terms-background-web.png);
+  }
+  .terms-wrap {
+    width: 1440px;
+    padding: 0 85px 80px;
+  }
+
+  .terms-title {
+    font-size: 54px;
+  }
+
+  .terms-wrap > h2 {
+    font-size: 32px;
+  }
+
+  .terms-wrap > p {
+    font-size: 22px;
+  }
+}
