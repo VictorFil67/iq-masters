@@ -24,6 +24,7 @@
   display: block;
   background-color: transparent;
   position: relative;
+  // padding-top: 86px;
   padding-top: 18px;
 }
 @media (min-width: 1440px) {
@@ -36,6 +37,12 @@
     // color: #faf6f2;
     padding: 0;
   }
+}
+
+.container.header-wrap {
+  padding-bottom: 0;
+  // position: fixed;
+  // top: 18px;
 }
 
 .header-container {
