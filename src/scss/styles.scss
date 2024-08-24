@@ -29,6 +29,7 @@ body {
 ul,
 ol {
   list-style-type: none;
+  padding: 10px;
 }
 
 h1,
@@ -63,6 +64,10 @@ a {
 
 button {
   cursor: pointer;
+}
+
+section {
+  padding: 5px;
 }
 
 .container {
