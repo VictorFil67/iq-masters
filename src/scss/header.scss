@@ -7,6 +7,11 @@
   z-index: -1;
   width: 100%;
 }
+@media (min-resolution: 192dpi) {
+  .background {
+    background-image: url(../img/main-sect-background-mob@2x.jpg);
+  }
+}
 
 .open {
   display: flex !important;

@@ -1,0 +1,68 @@
+// .background {
+//   background-image: url(../img/main-sect-background-mob.jpg);
+//   background-size: cover;
+//   background-repeat: no-repeat;
+//   min-height: 568px;
+//   //   position: absolute;
+//   //   z-index: -1;
+//   width: 100%;
+// }
+.benefits {
+  padding-bottom: 0;
+}
+.container.container-benefits {
+  padding-bottom: 0;
+}
+.main-section-wrapper {
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  //   align-items: center;
+}
+
+.title {
+  text-transform: uppercase;
+  font: 400 28px 'Rubik Mono One', sans-serif;
+  letter-spacing: 0.2em;
+  // text-transform: lowercase;
+  color: #fff;
+  margin-bottom: 40px;
+}
+
+.main-content {
+  display: flex;
+  //   gap: 25px;
+  justify-content: space-between;
+  padding-left: 5px;
+  margin-bottom: 12px;
+}
+
+.left-side {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  justify-content: flex-end;
+  margin-bottom: 28px;
+  align-items: center;
+}
+
+.google-play {
+  background-image: url(../img/google-play.png);
+  width: 126px;
+  height: 36px;
+  background-size: cover;
+}
+@media (min-resolution: 192dpi) {
+  .google-play {
+    background-image: url('../img/google-play@2x.png');
+  }
+}
+.google-play:hover,
+.google-play:active {
+  background-image: url(../img/google-play-black.png);
+}
+
+.benefits {
+  align-self: center;
+}
