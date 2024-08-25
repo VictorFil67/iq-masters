@@ -20,13 +20,13 @@ function backdropClick(e) {
 function burgerClick() {
   document.querySelector('.burger').classList.toggle('active');
   document.querySelector('.nav').classList.toggle('open');
-  document.querySelector('.hidden').classList.toggle('none');
+  document.querySelector('.hidden').classList.toggle('backdrop');
   document.querySelector('body').classList.toggle('hidding');
 }
 
 function close() {
   document.querySelector('.burger').classList.remove('active');
   document.querySelector('.nav').classList.remove('open');
-  document.querySelector('.hidden').classList.remove('none');
+  document.querySelector('.hidden').classList.remove('backdrop');
   document.querySelector('body').classList.remove('hidding');
 }
