@@ -17,7 +17,7 @@
     />
     
     <script type="module" crossorigin src="/iq-masters/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/iq-masters/assets/styles-0d56218b.css">
+    <link rel="stylesheet" href="/iq-masters/assets/styles-f7a17ad9.css">
   </head>
   <body>
     <div class="background"></div>
@@ -29,7 +29,7 @@
         <img
           src="/iq-masters/logo.png"
           alt="logo"
-          srcset="/iq-masters/logo.png 1x, /iq-masters/logo-2x.png 2x"
+          srcset="/iq-masters/logo.png 1x, /iq-masters/logo@2x.png 2x"
         />
       </a>
 
@@ -57,11 +57,91 @@
 </header>
 
     <main>
-      <section id="benefits">
-  <h2>Main Section</h2>
+      <section id="benefits" class="benefits">
+  <div class="container container-benefits">
+    <div class="main-section-wrapper">
+      <h1 class="title">IQMasters</h1>
+      <div class="main-content">
+        <div class="left-side">
+          <a
+            href="https://play.google.com/store/games"
+            aria-label="google play"
+            class="google-play"
+          >
+            <!-- <img
+              src="../img/google-play.png"
+              alt="google play"
+              width="126"
+              height="36"
+              srcset="../img/google-play.png 1x, ../img/google-play@2x.png 2x"
+              loading="lazy"
+            /> --> </a
+          ><img
+            src="../img/main-sect-green-arrow.png"
+            alt="green arrow"
+            width="87"
+            height="87"
+            srcset="
+              ../img/main-sect-green-arrow.png    1x,
+              ../img/main-sect-green-arrow@2x.png 2x
+            "
+            loading="lazy"
+          />
+        </div>
+        <div class="rite-side">
+          <picture>
+            <source
+              media="(min-width:320px)"
+              srcset="
+                ../img/main-sect-phone-mob.png    1x,
+                ../img/main-sect-phone-mob@2x.png 2x
+              "
+            />
+            <source
+              media="(min-width:1440px)"
+              srcset="
+                ../img/main-sect-phone-web.png    1x,
+                ../img/main-sect-phone-web@2x.png 2x
+              "
+            />
+            <img
+              src="../img/main-sect-phone-mob.png"
+              alt="phone"
+              loading="lazy"
+            />
+          </picture>
+        </div>
+      </div>
+      <div class="benefits">
+        <picture>
+          <source
+            media="(min-width:320px)"
+            srcset="
+              ../img/main-sect-benefits-mob.png    1x,
+              ../img/main-sect-benefits-mob@2x.png 2x
+            "
+          />
+          <source
+            media="(min-width:1440px)"
+            srcset="
+              ../img/main-sect-benefits-web.png    1x,
+              ../img/main-sect-benefits-web@2x.png 2x
+            "
+          />
+          <img
+            src="../img/main-sect-benefits-mob.png"
+            alt="benefits"
+            loading="lazy"
+            width="264"
+            height="61"
+          />
+        </picture>
+      </div>
+    </div>
+  </div>
 </section>
 
-      <section id="about">
+      <section id="about" class="about">
   <h2>About the Game</h2>
 </section>
 
