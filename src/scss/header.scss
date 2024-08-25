@@ -150,7 +150,7 @@
 
 /* Добавляем класс active для анимации иконки бургера */
 .burger.active {
-  top: 92px;
+  top: 75px;
   left: auto;
   right: 24px;
 }
@@ -186,7 +186,7 @@
     overflow-y: auto;
     padding: 29px 40px;
     // margin: auto;
-    top: 80px;
+    top: 50px;
     left: 50%;
     // transform: translateY(-50%);
     transform: translateX(-50%);
