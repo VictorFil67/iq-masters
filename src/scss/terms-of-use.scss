@@ -6,6 +6,15 @@
     ),
     url(../img/terms-background-mob.png);
   background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .terms {
+    background-image: url(../img/terms-background-mob-2x.png);
+  }
 }
 
 .terms-wrap {
@@ -14,7 +23,7 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
-  padding: 0 16px 16px;
+  padding: 20px 16px 16px;
 }
 
 .terms-title {
@@ -53,9 +62,18 @@
       ),
       url(../img/terms-background-web.png);
   }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .all-wrap {
+      background-image: url(../img/terms-background-web-2x.png);
+    }
+  }
+
   .terms-wrap {
     width: 1440px;
-    padding: 0 85px 80px;
+    padding: 80px 85px;
   }
 
   .terms-title {
