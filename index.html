@@ -17,10 +17,13 @@
     />
     
     <script type="module" crossorigin src="/iq-masters/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/iq-masters/assets/styles-f7a17ad9.css">
+    <link rel="modulepreload" crossorigin href="/iq-masters/assets/mobail-09ec8454.js">
+    <link rel="modulepreload" crossorigin href="/iq-masters/assets/vendor-e0c5843a.js">
+    <link rel="stylesheet" href="/iq-masters/assets/mobail-e9480d8d.css">
+    <link rel="stylesheet" href="/iq-masters/assets/vendor-b51df72b.css">
   </head>
   <body>
-    <div class="background"></div>
+    <!-- <div class="background"></div> -->
 
 <header class="header">
   <div class="container header-wrap">
@@ -38,12 +41,12 @@
         <nav class="nav">
           <ul>
             <li><a href="/">Home</a></li>
-            <li><a href="#benefits">Benefits</a></li>
-            <li><a href="#about">About the Game</a></li>
-            <li><a href="#how_to_play">How to Play</a></li>
-            <li><a href="#advantages">Advantages</a></li>
-            <li><a href="#faq">FAQ</a></li>
-            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="/iq-masters/#benefits">Benefits</a></li>
+            <li><a href="/iq-masters/#about">About the Game</a></li>
+            <li><a href="/iq-masters/#how_to_play">How to Play</a></li>
+            <li><a href="/iq-masters/#advantages">Advantages</a></li>
+            <li><a href="/iq-masters/#faq">FAQ</a></li>
+            <li><a href="/iq-masters/#gallery">Gallery</a></li>
           </ul>
         </nav>
       </div>
@@ -147,7 +150,7 @@
 
       <div class="all-wrap">
         <section id="how_to_play" class="container how-play-wrap">
-  <h2>How to Play</h2>
+  <h2 class="how-play-title">How to Play</h2>
   <div class="how-play-info-wrap">
     <ul>
       <li>
@@ -221,7 +224,7 @@
 </section>
 
         <section id="faq" class="container how-play-wrap">
-  <h2>FAQ</h2>
+  <h2 class="faq-title">FAQ</h2>
   <ul class="faq-list">
     <li class="faq-item">
       <h3 class="question">Is this game suitable for children?</h3>
@@ -258,8 +261,90 @@
   </ul>
 </section>
 
-        <section id="gallery">
+        <section id="gallery" class="container gallery-wrap">
   <h2>Gallery</h2>
+  <p class="gallery-text">
+    Dive deep into mind-bending puzzles with Brain Test! Challenge your
+    intellect, stretch your creativity, and solve the unsolvable with over a
+    hundred levels designed to push your cognitive skills to their limits. Every
+    solution is a surprise, every question a delight—get ready to think outside
+    the box like never before!
+  </p>
+
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <picture class="gallery-pict">
+          <source
+            srcset="/iq-masters/assets/gallery-first-mob-5ae27743.png 1x, /iq-masters/assets/gallery-first-mob-2x-f09d1c95.png 2x"
+            media="(max-width: 1439px)"
+          />
+          <source
+            srcset="/iq-masters/assets/gallery-first-web-56448e5e.png 1x, /iq-masters/assets/gallery-first-web-2x-56840ff6.png 2x"
+            media="(min-width: 1440px)"
+          />
+          <img src="/iq-masters/assets/gallery-first-mob-5ae27743.png" alt="Gallery image" />
+        </picture>
+      </div>
+      <div class="swiper-slide">
+        <picture>
+          <source
+            srcset="/iq-masters/assets/gallery-second-mob-2b875791.png 1x, /iq-masters/assets/gallery-second-mob-2x-a7cf8dbb.png 2x"
+            media="(max-width: 1439px)"
+          />
+          <source
+            srcset="/iq-masters/assets/gallery-second-web-11b87fd9.png 1x, /iq-masters/assets/gallery-second-web-2x-0d214028.png 2x"
+            media="(min-width: 1440px)"
+          />
+          <img src="/iq-masters/assets/gallery-second-mob-2b875791.png" alt="Gallery image" />
+        </picture>
+      </div>
+      <div class="swiper-slide">
+        <picture>
+          <source
+            srcset="/iq-masters/assets/gallery-third-mob-77f5e75b.png 1x, /iq-masters/assets/gallery-third-mob-2x-0bc69213.png 2x"
+            media="(max-width: 1439px)"
+          />
+          <source
+            srcset="/iq-masters/assets/gallery-third-web-ce74d021.png 1x, /iq-masters/assets/gallery-third-web-2x-c73ed772.png 2x"
+            media="(min-width: 1440px)"
+          />
+          <img src="/iq-masters/assets/gallery-third-mob-77f5e75b.png" alt="Gallery image" />
+        </picture>
+      </div>
+      <div class="swiper-slide">
+        <picture>
+          <source
+            srcset="/iq-masters/assets/gallery-fourth-mob-73228439.png 1x, /iq-masters/assets/gallery-fourth-mob-2x-85bc359f.png 2x"
+            media="(max-width: 1439px)"
+          />
+          <source
+            srcset="/iq-masters/assets/gallery-fourth-web-1fcc23b3.png 1x, /iq-masters/assets/gallery-fourth-web-2x-20936de4.png 2x"
+            media="(min-width: 1440px)"
+          />
+          <img src="/iq-masters/assets/gallery-fourth-mob-73228439.png" alt="Gallery image" />
+        </picture>
+      </div>
+      <div class="swiper-slide">
+        <picture>
+          <source
+            srcset="/iq-masters/assets/gallery-fifth-mob-c22a24fd.png 1x, /iq-masters/assets/gallery-fifth-mob-2x-6c54a070.png 2x"
+            media="(max-width: 1439px)"
+          />
+          <source
+            srcset="/iq-masters/assets/gallery-fifth-web-cc6414bc.png 1x, /iq-masters/assets/gallery-fifth-web-2x-95ea5390.png 2x"
+            media="(min-width: 1440px)"
+          />
+          <img src="/iq-masters/assets/gallery-fifth-mob-c22a24fd.png" alt="Gallery image" />
+        </picture>
+      </div>
+    </div>
+  </div>
+  <a
+    href="https://play.google.com/store/games"
+    aria-label="google play"
+    class="google-play gallery-google"
+  ></a>
 </section>
 
       </div>
