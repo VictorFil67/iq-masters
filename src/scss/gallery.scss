@@ -1,0 +1,44 @@
+.gallery-wrap {
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.gallery-text {
+  font-weight: 500;
+  padding: 10px;
+}
+
+.swiper-container {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.swiper-slide {
+  flex-shrink: 0;
+  width: 320px;
+}
+
+.gallery-google {
+  display: none;
+}
+
+@media screen and (min-width: 1440px) {
+  .gallery-google {
+    display: block;
+    margin-bottom: 30px;
+  }
+
+  .swiper-slide {
+    width: 524px; /* Відміняємо фіксовану ширину для desktop */
+    flex: 0 0 calc(42% - 48px); /* Слайд займає 25% ширини, враховуючи відстань між слайдами */
+  }
+
+  .swiper-wrapper {
+    justify-content: flex-start;
+  }
+}
