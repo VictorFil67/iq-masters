@@ -1,6 +1,7 @@
 .about {
   background-image: url(../img/about-sect-background-mob.png);
-  block-size: cover;
+  background-size: cover;
+  background-repeat: repeat-y;
   min-height: 1163px;
   width: 100%;
 }
