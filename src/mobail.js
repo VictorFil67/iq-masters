@@ -22,6 +22,8 @@ function burgerClick() {
   document.querySelector('.nav').classList.toggle('open');
   document.querySelector('.hidden').classList.toggle('backdrop');
   document.querySelector('body').classList.toggle('hidding');
+  const location = window.location.href;
+  console.log(location);
 }
 
 function close() {

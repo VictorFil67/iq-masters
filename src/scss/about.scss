@@ -1,7 +1,37 @@
 .about {
   background-image: url(../img/about-sect-background-mob.png);
-  background-size: cover;
-  background-repeat: repeat-y;
-  min-height: 1163px;
+  // background-size: cover;
+  // background-repeat: repeat-y;
+  // min-height: 1163px;
   width: 100%;
+  // display: flex;
+  // display: block;
+}
+
+.about-disclaimer {
+  font: 400 18px 'Roboto', sans-serif;
+  color: #f5f5f5;
+  text-transform: uppercase;
+  padding: 50px 10px 60px;
+  width: 293px;
+}
+.about-title {
+  font: 700 32px 'Montserrat Alternates', sans-serif;
+  text-align: center;
+  color: #f5f5f5;
+  margin-bottom: 60px;
+}
+
+.about-content {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+}
+
+.about-text {
+  font: 400 24px 'Roboto', sans-serif;
+  color: #f1f1f1;
+  padding: 0 11px;
+  // margin-bottom: 40px;
 }
