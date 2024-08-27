@@ -1,5 +1,8 @@
 .how-play-wrap {
   background-color: transparent;
+  width: 320px;
+  margin: 0 auto;
+  padding: 0 13px 40px;
 }
 
 .how-play-title {
@@ -23,6 +26,11 @@
 }
 
 @media screen and (min-width: 1440px) {
+  .how-play-wrap {
+    width: 1440px;
+    padding: 50px 80px;
+  }
+
   .how-play-info-wrap {
     flex-direction: row;
     gap: 128px;
