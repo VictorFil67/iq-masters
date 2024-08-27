@@ -3,19 +3,22 @@ document.querySelector('ul').addEventListener('click', handleClick);
 document.querySelector('.hidden').addEventListener('click', backdropClick);
 
 function handleClick(e) {
-  if (e.target.nodeName === 'A' && window.innerWidth < 1440) {
+  if (e.target.nodeName === 'A') {
     const elem = e.target
       .getAttribute('href')
       .substring(e.target.getAttribute('href').indexOf('#'));
+
     console.log(elem);
 
-    close();
     const sections = document.querySelectorAll('section');
     console.log(sections);
     sections.forEach(section => section.classList.remove('shift'));
     document.querySelector(elem).classList.add('shift');
     const newsections = document.querySelectorAll('section');
     console.log(newsections);
+    if (window.innerWidth < 1440) {
+      close();
+    }
   }
 }
 
