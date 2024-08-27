@@ -76,9 +76,11 @@
 
 .logo {
   display: flex;
-  justify-content: center;
+  margin: 0 auto;
+  width: fit-content;
+  // justify-content: center;
   // flex-direction: column;
-  align-items: center;
+  // align-items: center;
   // border-radius: 50%;
   // border: 1px solid #faf6f2;
   // width: 90px;
@@ -217,4 +219,8 @@
   to {
     opacity: 1;
   }
+}
+
+.shift {
+  padding-top: 88px !important;
 }
