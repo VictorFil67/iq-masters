@@ -1,6 +1,6 @@
 .about {
   background-image: url(../img/about-sect-background-mob.png);
-  // background-size: cover;
+  background-size: cover;
   // background-repeat: repeat-y;
   // min-height: 1163px;
   width: 100%;
@@ -61,12 +61,13 @@
   font: 400 24px 'Roboto', sans-serif;
   color: #f1f1f1;
   padding: 0 4px;
-  text-align: justify;
+  width: 281px;
 }
 @media (min-width: 1440px) {
   .about-text,
   .picture {
     width: 630px;
+    text-align: justify;
   }
 }
 

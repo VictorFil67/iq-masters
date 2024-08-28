@@ -14,6 +14,8 @@ function handleClick(e) {
     console.log(sections);
     sections.forEach(section => section.classList.remove('shift'));
     document.querySelector(elem).classList.add('shift');
+
+    console.log(document.querySelector(elem));
     const newsections = document.querySelectorAll('section');
     console.log(newsections);
     if (window.innerWidth < 1440) {
