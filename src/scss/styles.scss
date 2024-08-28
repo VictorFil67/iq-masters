@@ -78,12 +78,7 @@ section {
 }
 
 .all-wrap {
-  background-image: linear-gradient(
-      to bottom,
-      rgba(46, 47, 66, 0.6),
-      rgba(46, 47, 66, 0.2)
-    ),
-    url(../img/how-play-background-mob.png);
+  background-image: url(../img/how-play-background-mob.png);
   background-size: cover;
 }
 
@@ -96,12 +91,7 @@ section {
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
   .all-wrap {
-    background-image: linear-gradient(
-        to bottom,
-        rgba(46, 47, 66, 0.6),
-        rgba(46, 47, 66, 0.2)
-      ),
-      url(../img/about-sect-background-mob-2x.png);
+    background-image: url(../img/about-sect-background-mob-2x.png);
   }
 }
 
@@ -112,12 +102,7 @@ section {
   }
 
   .all-wrap {
-    background-image: linear-gradient(
-        to bottom,
-        rgba(46, 47, 66, 0.6),
-        rgba(46, 47, 66, 0.2)
-      ),
-      url(../img/how-play-background-web.png);
+    background-image: url(../img/how-play-background-web.png);
   }
 
   @media (min-device-pixel-ratio: 2),

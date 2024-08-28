@@ -34,8 +34,8 @@
   }
 
   .swiper-slide {
-    width: 524px; /* Відміняємо фіксовану ширину для desktop */
-    flex: 0 0 calc(42% - 48px); /* Слайд займає 25% ширини, враховуючи відстань між слайдами */
+    width: 524px;
+    flex: 0 0 calc(42% - 48px);
   }
 
   .swiper-wrapper {

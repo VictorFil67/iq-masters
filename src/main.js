@@ -13,7 +13,7 @@ faqItems.forEach(item => {
 // gallery
 document.addEventListener('DOMContentLoaded', function () {
   const swiper = new Swiper('.swiper-container', {
-    loop: true,
+    loop: false,
     effect: 'slide',
     slidesPerView: 'auto',
     speed: 600,
