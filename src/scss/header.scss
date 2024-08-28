@@ -248,3 +248,15 @@
     padding-top: 150px !important;
   }
 }
+:target::before {
+  content: '';
+  display: block;
+  height: 108px;
+}
+@media (min-width: 1440px) {
+  :target::before {
+    // content: '';
+    // display: block;
+    height: 98px;
+  }
+}

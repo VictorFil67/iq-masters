@@ -4,20 +4,20 @@ document.querySelector('.hidden').addEventListener('click', backdropClick);
 
 function handleClick(e) {
   if (e.target.nodeName === 'A') {
-    const elem = e.target
-      .getAttribute('href')
-      .substring(e.target.getAttribute('href').indexOf('#'));
+    // const elem = e.target
+    //   .getAttribute('href')
+    //   .substring(e.target.getAttribute('href').indexOf('#'));
 
-    console.log(elem);
+    // console.log(elem);
 
-    const sections = document.querySelectorAll('section');
-    console.log(sections);
-    sections.forEach(section => section.classList.remove('shift'));
-    document.querySelector(elem).classList.add('shift');
+    // const sections = document.querySelectorAll('section');
+    // console.log(sections);
+    // sections.forEach(section => section.classList.remove('shift'));
+    // document.querySelector(elem).classList.add('shift');
 
-    console.log(document.querySelector(elem));
-    const newsections = document.querySelectorAll('section');
-    console.log(newsections);
+    // console.log(document.querySelector(elem));
+    // const newsections = document.querySelectorAll('section');
+    // console.log(newsections);
     if (window.innerWidth < 1440) {
       close();
     }
