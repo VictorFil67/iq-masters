@@ -1,16 +1,14 @@
 .about {
   background-image: url(../img/about-sect-background-mob.png);
   background-size: cover;
-  // background-repeat: repeat-y;
-  // min-height: 1163px;
+
   width: 100%;
-  // display: flex;
-  // display: block;
 }
 @media (min-width: 1440px) {
   .about {
     background-image: url(../img/about-sect-background-web.png);
     background-size: cover;
+    background-position-y: -1px;
     padding-top: 70px;
     padding-bottom: 117px;
     margin-top: -1px;
