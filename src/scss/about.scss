@@ -10,7 +10,11 @@
 }
 @media (min-width: 1440px) {
   .about {
-    background-image: url(../img/about-sect-background-web.png);
+    background-image: linear-gradient(
+        rgba(75, 0, 135, 0.5),
+        rgba(75, 0, 135, 0.5)
+      ),
+      url(../img/about-sect-background-web.png);
     background-size: cover;
 
     padding-top: 70px;
