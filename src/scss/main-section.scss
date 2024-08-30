@@ -1,13 +1,13 @@
 .main-section {
   background-image: url(../img/main-sect-background-mob.jpg);
   padding-top: 88px;
-  // display: block;
 }
 @media (min-width: 1440px) {
   .main-section {
     background-image: url(../img/main-sect-background-web.jpg);
     padding-top: 152px;
     padding-left: 0;
+    background-position-y: bottom -1px;
   }
 }
 

@@ -1,3 +1,13 @@
+.gallery {
+  background: radial-gradient(
+    223% 20% at center,
+    #a61aa1,
+    #7e298c 20% 40%,
+    #4b008780
+  );
+  background-size: auto calc(100% / 2);
+}
+
 .gallery-wrap {
   display: flex;
   gap: 30px;
@@ -28,6 +38,11 @@
 }
 
 @media screen and (min-width: 1440px) {
+  .gallery {
+    background: #4b008780;
+    padding-top: 50px;
+  }
+
   .gallery-google {
     display: block;
     margin-bottom: 30px;

@@ -1,3 +1,13 @@
+.faq {
+  background: radial-gradient(
+    223% 20% at center,
+    #a61aa1,
+    #7e298c 20% 40%,
+    #4b008780
+  );
+  background-size: auto calc(100% / 2);
+}
+
 .question {
   color: #f5f5f5;
   font-size: 8px;
@@ -7,6 +17,8 @@
   align-items: center;
   justify-content: space-between;
 }
+
+@include main-mobile-bg(faq);
 
 .faq-icon {
   transition: transform 0.5s ease;
@@ -64,6 +76,11 @@
 }
 
 @media screen and (min-width: 1440px) {
+  .faq {
+    background: #4b008780;
+    padding-top: 50px;
+  }
+
   .faq-list {
     flex-direction: row;
     flex-wrap: wrap;
