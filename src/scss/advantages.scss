@@ -1,4 +1,21 @@
+.advantages {
+  background: radial-gradient(
+    223% 20% at center,
+    #a61aa1,
+    #7e298c 20% 40%,
+    #4b008780
+  );
+  background-size: auto calc(100% / 2);
+}
+
 .advantages-title {
   font-size: 36px;
   margin-bottom: 30px;
+}
+
+@media screen and (min-width: 1440px) {
+  .advantages {
+    background: #4b008780;
+    padding-top: 50px;
+  }
 }

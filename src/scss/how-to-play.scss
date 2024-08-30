@@ -1,8 +1,11 @@
-.how-play-wrap {
-  background-color: transparent;
-  width: 320px;
-  margin: 0 auto;
-  padding: 0 13px 40px;
+.how-to-play {
+  background: radial-gradient(
+    223% 20% at center,
+    #a61aa1,
+    #7e298c 20% 40%,
+    #4b008780
+  );
+  background-size: auto calc(100% / 2);
 }
 
 .how-play-title {
@@ -26,6 +29,11 @@
 }
 
 @media screen and (min-width: 1440px) {
+  .how-to-play {
+    background: #4b008780;
+    padding-top: 50px;
+  }
+
   .how-play-wrap {
     width: 1440px;
     padding: 50px 80px;

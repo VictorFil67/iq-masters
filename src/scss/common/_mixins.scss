@@ -1,13 +1,26 @@
 @use 'sass:math';
 @import './breakpoints';
 /*
-screen types: 
+screen types:
     mobile,
     to-tablet
     tablet,
     to-desktop
     desktop,
 */
+
+@mixin main-mobile-bg($_block-name) {
+  .#{$_block-name}__bg-wrapper {
+    background: radial-gradient(
+      223% 20% at center,
+      #a61aa1,
+      #7e298c 20% 40%,
+      #4b008780
+    );
+    background-size: auto calc(100% / 2);
+  }
+}
+
 @mixin media($_screen) {
   @if $_screen == mobile {
     @media screen and (min-width: $mobile) {
